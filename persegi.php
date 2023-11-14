@@ -1,10 +1,13 @@
 <?php
-
+// Penjumlahan Variable PERSEGI
 $sisi = 6;
 $luas = $sisi * $sisi;
 
 echo "Hasil Dari Perhitungan Luas Persegi Adalah = $luas <br>";
 
+
+
+// FUNCTION PERSEGI
 function persegi($sisi)
  { 
 
@@ -17,6 +20,9 @@ function persegi($sisi)
  echo "Hasil Dari Perhitungan Luas Persegi Menggunakan Function Adalah = $fungsi_persegi <br>";
 
 
+
+ 
+//  CLASS PERSEGI
  class persegi
  {
      function hitung_luas($sisi)
